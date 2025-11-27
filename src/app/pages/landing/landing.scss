@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:host {
+  display: block;
+  background-color: #2F3749;
+  color: #D3AE6E;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 6rem 1rem 4rem;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  background: linear-gradient(to bottom right, #2F3749, #097F22);
+}
+
+.hero-section h2 {
+  color: #D3AE6E;
+}
+
+.hero-section p {
+  color: #fff;
+}
+
+.hero-section .card {
+  background-color: #097F22;
+  border: 1px solid #CB9C4C;
+  color: #D3AE6E;
+
+  &:hover {
+    background-color: #009640;
+    border-color: #D3AE6E;
+    color: white;
+  }
+}

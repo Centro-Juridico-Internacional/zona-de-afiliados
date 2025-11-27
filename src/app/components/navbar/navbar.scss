@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  background: rgba(47, 55, 73, 0.85); // brand-blue with transparency
+  backdrop-filter: blur(10px);
+
+  a {
+    color: #D3AE6E; // brand-gold-light
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      color: #CB9C4C; // brand-gold
+    }
+  }
+}

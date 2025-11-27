@@ -1,0 +1,18 @@
+.module-card {
+  padding: 1.5rem;
+  background: #2F3749; 
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid #CB9C4C; 
+
+  cursor: pointer;
+  transition: all 0.3s;
+
+  color: #D3AE6E; 
+
+  &:hover {
+    background: #097F22; 
+    border-color: #D3AE6E; 
+    color: #ffffff;
+  }
+}

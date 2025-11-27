@@ -1,0 +1,14 @@
+<div (click)="onSelect()"
+  class="group relative overflow-hidden bg-emerald-800/90 border border-emerald-400/20 rounded-3xl shadow-md hover:shadow-emerald-400/20
+            flex flex-col justify-start items-center text-center p-6 backdrop-blur-md cursor-pointer transition-all duration-500 min-h-[20rem]">
+  <i [class]="iconClass + ' text-emerald-200 text-6xl mb-4 transition-all duration-500 group-hover:scale-110'"
+    aria-hidden="true"></i>
+  <h3 class="text-2xl font-semibold text-emerald-200 mb-3 drop-shadow-sm leading-tight">{{ title }}</h3>
+  <div class="mt-auto w-full opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+    <p class="text-gray-100 mb-5 leading-relaxed">{{ desc }}</p>
+    <button
+      class="bg-emerald-400 hover:bg-emerald-300 text-emerald-900 font-semibold px-6 py-2 rounded-full transition-all">
+      Ingresar
+    </button>
+  </div>
+</div>

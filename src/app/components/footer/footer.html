@@ -1,0 +1,125 @@
+<footer>
+
+  <div class="flex justify-start pl-4 pt-4">
+    <img src="/assets/footer/logo1.png" alt="Logo Centro Jurídico Internacional"
+      class="h-16 sm:h-20 md:h-48 drop-shadow-lg" />
+  </div>
+
+  
+  <div class="footer-columns">
+
+    <div>
+      <h3>SEDE PRINCIPAL BOGOTÁ
+        <img src="/assets/footer/col.svg" alt="Bandera Colombia" />
+      </h3>
+
+      <p><strong>Dirección:</strong> Carrera 24 No. 27 a 21</p>
+      <p><strong>Tels:</strong> 601 241 51 00 / 601 245 18 44 / 601 626 50 41</p>
+      <p><strong>Cel:</strong> 312 490 21 43 / 300 218 32 46 / 311 382 06 19</p>
+
+      <p><strong>Email:</strong><br>
+        <a href="mailto:consulta@centrojuridicointernacional.com">
+          consulta@centrojuridicointernacional.com
+        </a>
+      </p>
+
+      <p>Bogotá – Colombia</p>
+    </div>
+
+  
+    <div>
+      <h3>SEDE VILLAVICENCIO</h3>
+
+      <p><strong>Dirección:</strong> CLL 27#44B-8<br>Ed. Gestar Ofc. 303<br>Barrio El Buque</p>
+      <p><strong>Tel:</strong> 608 678 39 15<br>
+        <strong>Cel:</strong> 317 646 77 53 / 314 203 34 97 / 310 518 23 10
+      </p>
+    </div>
+
+  
+    <div>
+      <h3>SEDE IBAGUÉ</h3>
+
+      <p><strong>Dirección:</strong> Carrera 6 No. 53-54<br>
+        Torre 1 Oficina 801 Edificio Torreón
+      </p>
+
+      <p><strong>Tel:</strong> 608 276 18 05<br>
+        <strong>Cel:</strong> 317 471 90 18 / 317 479 82 05
+      </p>
+    </div>
+
+
+    <div>
+      <h3>SEDE TUNJA</h3>
+
+      <p><strong>Dirección:</strong> Carrera 1F #40-149<br>
+        Ed. Marca Torre 2 Oficina 518
+      </p>
+
+      <p><strong>Tel:</strong> 608 740 19 66 / 608 276 18 05<br>
+        <strong>Cel:</strong> 316 025 44 62 / 310 518 23 20
+      </p>
+    </div>
+
+    
+    <div>
+      <h3>SEDE CHÍA</h3>
+
+      <p><strong>Dirección:</strong> OXus Centro Empresarial<br>
+        km 1.5 vía Chía-Cajicá<br>
+        Costado Occidental Ofc. 308
+      </p>
+
+      <p><strong>Tel:</strong> 601 863 01 31<br>
+        <strong>Cel:</strong> 310 518 23 47 / 317 513 24 62
+      </p>
+    </div>
+
+    
+    <div>
+      <h3>CONTACTO USA
+        <img src="/assets/footer/usa.svg" alt="Bandera USA" />
+      </h3>
+
+      <p><strong>Dirección:</strong><br>
+        1395 Brickell AVE.<br>
+        8th Floor<br>
+        Miami – USA 33131
+      </p>
+    </div>
+
+  </div>
+
+  
+  <div class="policy-social-row">
+
+    <div class="policy-left">
+      <p>
+        LEY ESTATUTARIA 1581 DE 2012 (Octubre 17)<br />
+        Reglamentada parcialmente por el Decreto Nacional 1377 de 2013.<br />
+        Por la cual se dictan disposiciones generales para la protección de datos personales
+        <a href="/assets/footer/PPDP.pdf" target="_blank">Conócelas Aquí</a>
+      </p>
+    </div>
+
+    <div class="social-right">
+      <span>@centrojuridicointernacional</span>
+
+      <div class="social-box">
+        <ng-container *ngFor="let item of SOCIALMEDIA">
+          <a [href]="item.url" target="_blank">
+            <img [src]="item.icon" [alt]="item.name" />
+          </a>
+        </ng-container>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <div class="copyright">
+    © {{ currentYear }} Centro Jurídico Internacional — Todos los derechos reservados.
+  </div>
+
+</footer>

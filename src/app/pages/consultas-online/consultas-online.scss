@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #2F3749, #097F22);
+
+    h1 {
+        color: #D3AE6E !important;
+    }
+
+    h3 {
+        color: #D3AE6E !important;
+    }
+
+    .border-brand-gold {
+        border-color: #CB9C4C !important;
+    }
+}

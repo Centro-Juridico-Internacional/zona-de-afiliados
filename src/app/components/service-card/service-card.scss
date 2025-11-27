@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:host {
+  display: block;
+}
+
+.card {
+  background-color: #097F22; /* verde corporativo */
+  border: 1px solid #CB9C4C; /* dorado */
+  color: #f0fdf4;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: #009640; /* verde claro */
+    border-color: #D3AE6E; /* dorado claro */
+  }
+}

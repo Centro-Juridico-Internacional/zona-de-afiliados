@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  border-bottom: 2px solid #D3AE6E !important; // brand-gold-light
+}
+
+nav a,
+nav span {
+  color: #D3AE6E !important; // brand-gold-light
+  font-weight: 500;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 6px rgba(211, 174, 110, 0.8);
+  }
+}
+
+nav img {
+  filter: drop-shadow(0 0 6px rgba(211, 174, 110, 0.7));
+}

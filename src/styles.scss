@@ -1,0 +1,89 @@
+@use "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales para homogeneidad en todo el proyecto */
+
+/* Títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #D3AE6E !important;
+  /* brand-gold-light */
+}
+
+/* Textos generales */
+p,
+span,
+li,
+label {
+  color: #FFFFFF !important;
+  /* blanco */
+}
+
+/* Enlaces */
+a {
+  color: #D3AE6E !important;
+
+  &:hover {
+    color: #CB9C4C !important;
+    /* brand-gold */
+  }
+}
+
+/* Bordes dorados */
+.border,
+[class*="border-"] {
+  border-color: #CB9C4C !important;
+  /* brand-gold */
+}
+
+/* Botones */
+button,
+.btn,
+[class*="button"] {
+  border-color: #CB9C4C !important;
+
+  &:not(.bg-brand-gold):not([class*="bg-"]) {
+    background-color: #CB9C4C !important;
+    color: #2F3749 !important;
+    /* brand-blue para contraste */
+  }
+}
+
+/* Inputs y formularios */
+input,
+textarea,
+select {
+  border-color: #CB9C4C !important;
+  color: #FFFFFF !important;
+
+  &::placeholder {
+    color: rgba(211, 174, 110, 0.6) !important;
+  }
+}
+
+/* Cards y contenedores */
+.card,
+[class*="card"],
+.container {
+  border-color: #CB9C4C !important;
+}
+
+/* Estilos base para html y body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+:host {
+  display: block;
+  min-height: 100vh;
+}

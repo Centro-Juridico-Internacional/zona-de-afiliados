@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:host {
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #2F3749; // brand-blue
+  color: #D3AE6E; // brand-gold-light
+}
+
+.page-content {
+  flex: 1;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  background: linear-gradient(to bottom right, #2F3749, #097F22); // brand-blue to brand-green
+}
+
+.module-card {
+  padding: 1.5rem;
+  background: #097F22; // brand-green
+  border: 1px solid #CB9C4C; // brand-gold
+  text-align: center;
+  border-radius: 12px;
+  color: #D3AE6E; // brand-gold-light
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    background: #009640; // brand-green-light
+    border-color: #D3AE6E; // brand-gold-light
+    color: white;
+  }
+}

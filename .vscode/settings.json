@@ -1,0 +1,13 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "typescript": "html",
+    "javascript": "html",
+    "scss": "css",
+    "html": "html"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.classAttributes": ["class", "ngClass"],
+  "tailwindCSS.experimental.configFile": "tailwind.config.js",
+  "tailwindCSS.colorDecorators": true,
+  "editor.inlineSuggest.enabled": true
+}

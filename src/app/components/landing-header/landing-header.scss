@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:host+* {
+  margin-top: 5rem;
+}
+
+/* Header corporativo */
+:host {
+  display: block;
+  background-color: #2F3749;
+  /* azul jurídico */
+  color: #D3AE6E;
+  /* dorado claro */
+  padding: 1rem 0;
+}
+
+/* Reducir brillo en el focus del input - muy suave */
+input:focus {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  box-shadow: 0 0 0 1px rgba(203, 156, 76, 0.2) !important;
+  outline: none !important;
+}

@@ -1,0 +1,32 @@
+<nav
+  class="w-full fixed top-0 left-0 z-50 bg-brand-blue/90 backdrop-blur-lg border-b border-brand-gold-light shadow-lg">
+
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a class="flex items-center gap-3">
+      <img src="assets/footer/logo.svg" class="h-12" alt="CJI Logo" />
+      <span class="text-brand-gold-light font-bold text-xl">Centro Jurídico Internacional</span>
+    </a>
+
+    <div class="flex items-center gap-6">
+
+      <a routerLink="/home" class="text-brand-gold-light hover:text-brand-gold font-medium transition">Inicio</a>
+      <a routerLink="/noticias" class="text-brand-gold-light hover:text-brand-gold font-medium transition">Noticias</a>
+      <a routerLink="/servicios"
+        class="text-brand-gold-light hover:text-brand-gold font-medium transition">Servicios</a>
+      <a routerLink="/contacto" class="text-brand-gold-light hover:text-brand-gold font-medium transition">Contacto</a>
+
+      <button (click)="logout()" class="group px-5 py-2 rounded-full
+         bg-brand-gold text-brand-blue
+         font-semibold border border-brand-gold-light
+         shadow-[0_0_12px_rgba(203,156,76,0.4)]
+         hover:bg-brand-gold-light
+         hover:shadow-[0_0_20px_rgba(211,174,110,0.8)]
+         hover:-translate-y-0.5
+         transition-all duration-300 cursor-pointer">
+        Cerrar sesión
+      </button>
+    </div>
+
+  </div>
+</nav>
